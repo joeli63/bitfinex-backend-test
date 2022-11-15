@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "start-grapes": "node start_grapes.js",
-    "start-client": "node client.js"
+    "start-grapes": "node startGrapes.js",
+    "new-client": "node index.js"
   },
   "keywords": [
     "Grenache",
@@ -20,9 +20,17 @@
   },
   "dependencies": {
     "async": "^3.2.4",
+    "eslint": "^8.27.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
     "grenache-grape": "^0.9.11",
     "grenache-nodejs-http": "^0.7.12",
     "grenache-nodejs-link": "^0.7.12",
     "lodash.findkey": "^4.6.0"
-  }
+  },
+  "type": "module"
 }
