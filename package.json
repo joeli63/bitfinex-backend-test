@@ -1,0 +1,28 @@
+{
+  "name": "bitfnex-backend-test",
+  "version": "1.0.0",
+  "description": "Simplified distributed exchange",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start-grapes": "node start_grapes.js",
+    "start-client": "node client.js"
+  },
+  "keywords": [
+    "Grenache",
+    "Grape",
+    "Bitfinex"
+  ],
+  "author": "Joe Li",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.17 <15"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "grenache-grape": "^0.9.11",
+    "grenache-nodejs-http": "^0.7.12",
+    "grenache-nodejs-link": "^0.7.12",
+    "lodash.findkey": "^4.6.0"
+  }
+}
